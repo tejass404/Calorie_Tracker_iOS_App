@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="21G816" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDUserDetails" representedClassName="CDUserDetails" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="bmr" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="height" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="weight" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="UserActivities" representedClassName="UserActivities" syncable="YES">
+        <attribute name="activity_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="activity_duration" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="activity_name" optional="YES" attributeType="String"/>
+        <attribute name="activity_type" optional="YES" attributeType="String"/>
+        <attribute name="calorie_out" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="met_value" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="UserFoods" representedClassName="UserFoods" syncable="YES">
+        <attribute name="calorie_in" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="food_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="food_name" optional="YES" attributeType="String"/>
+        <attribute name="food_type" optional="YES" attributeType="String"/>
+        <attribute name="meal_type" optional="YES" attributeType="String"/>
+        <attribute name="serving" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+</model>
